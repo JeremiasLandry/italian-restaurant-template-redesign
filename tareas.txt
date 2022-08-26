@@ -1,0 +1,6 @@
+- cambiar el hover the el navbar
+- agregar una segunda fuente de letra para los h1's
+- agregarle un subtitulo a los header de los banners
+- eliminar el cambio de idioma
+- borrar google maps y agregar una foto del maps con link,
+- agregar seccion whatsapp con direccion del local

@@ -1,0 +1,225 @@
+body{
+	 font-family: 'Merienda';font-size: 15px;
+}
+.nav-item{
+	padding-right: 12px;
+	padding-left: 12px;
+}
+.flag{
+	max-height: 20px;
+	max-width: 20px;
+	margin-top: 10px;
+}
+#restaurantTitle{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.nav-link.active{
+	background-color: rgb(0, 0, 0) !important;
+	border-radius: 8px;
+	color: rgb(255, 255, 255) !important;
+	padding: 10px;
+}
+
+.reserve-container{
+	position: relative;
+}
+.brRadius{
+	border-radius: 12px;
+}
+.card-body{
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+  	-moz-transition: all 1s ease; /* Firefox */
+  	-o-transition: all 1s ease; /* IE 9 */
+  	-ms-transition: all 1s ease; /* Opera */
+  	transition: all 1s ease;
+	min-height: 386.5px;
+}
+.card-body:hover{
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+.bannerHeader{
+	font-size: 3em;
+	background: -webkit-linear-gradient(90deg, #fcff09 0%, #ffa700 71%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.bannerParagraphContainer{
+	margin-top: -25px;
+	display: flex;
+	justify-content:center;
+	align-items: flex-start;
+}
+.bannerParagraph{
+	font-size: 4em;
+	font-family: 'Josefin Sans', sans-serif;
+	background: -webkit-linear-gradient(90deg, transparent 0%, #ffffff 52%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	line-height: 60px;
+}
+.bannerLink{
+	text-decoration: underline;
+	color: #ffffff;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.bannerLink:hover,.bannerLink:focus,.bannerLink:active{
+	color: #ffa700;
+}
+.reserve-text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-reserve{
+	opacity: 0.4;
+	max-height: 750px;
+}
+
+.carousel-caption{
+	top: 40%;
+}
+.carousel-control-prev-icon:hover{
+	color: #ffa700 !important;
+}
+.img-slider{
+	min-height: 320px;
+}
+
+.navMenu{
+	padding-top: 75px;
+	padding-bottom: 60px;
+}
+
+.card-img-top{
+	height: 200px;
+}
+
+.map{
+	height: 320px;
+}
+.bg-light{
+	padding: 20px;
+}
+.card-title{
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	background-color: #000;
+	height: 100%;
+	margin: 0;
+	color: #fff;
+	padding: 20px;
+	border-radius:12px;
+}
+.image-contact{
+	max-height: 800px;
+}
+.contactParagraph{
+	font-size:1.5em;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 200;
+}
+.contactUl{
+	padding: 0;
+	margin-top: 60px;
+}
+.contactUl h3{
+	background: -webkit-linear-gradient(90deg, #fcff09 0%, #ffa700 71%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+}
+.contactUl li{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:#000;
+	color: #fff;
+	list-style-type:none;
+	font-size: 20px !important;
+	margin-bottom: 30px;
+	border-radius:12px;
+}
+.contactUl li p{
+	display: flex;
+	padding: 30px 10px 10px 10px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.contactUl i{
+	padding: 10px;
+}
+.map-img{
+	display: flex;
+	justify-content:center;
+	margin: auto auto;
+	border-radius: 18px;
+}
+@media screen and (max-width : 1920px){
+  .only-mobile{
+  visibility:hidden;
+  }
+}
+
+@media screen and (max-width : 506px){
+ 
+ .only-mobile{
+  visibility:visible;
+  }
+}
+
+.footer{
+	margin-bottom: 30px;
+	margin-top: 30px;
+	padding-top: 20px;
+}
+.social-icon{
+	font-size:28; 
+}
+
+footer{
+	position: fixed;
+	bottom: 0px;
+	padding-top: 20px;
+}
+@media screen and (max-width:1185px) {
+	.bannerHeader{
+		font-size:1em !important;
+	}
+	.bannerParagraph{
+		font-size:2em  !important;
+		white-space: nowrap;
+		/* overflow: hidden; */
+		/* text-overflow: ellipsis; */
+	}
+}
+@media screen and (max-width:880px){
+	.bannerHeader{
+		font-size:2em  !important;
+	}
+	.bannerParagraph{
+		font-size:2.5em  !important;
+	}
+}
+
+@media screen and (max-width:660px){
+	.bannerHeader{
+		font-size:1em  !important;
+	}
+	.bannerParagraph{
+		font-size:1.5em  !important;
+	}
+}
+
+/* @media screen and (max-width:551px){
+	.bannerHeader{
+		font-size:1em;
+	}
+	.bannerParagraph{
+		font-size:2em;
+	}
+} */
